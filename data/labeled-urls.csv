@@ -1,0 +1,6 @@
+url,label,source,notes
+https://secure-login-wellsfargo.verify-alerts-sec.top/auth,malicious,PhishTank,Fresh banking lure on cheap TLD
+https://account-update-paypal-notice.xyz/login,malicious,PhishTank,Disposable registrar and new domain
+https://appleid.apple.com/sign-in,benign,Tranco,Legitimate corporate brand portal
+https://github.com/explore,benign,Tranco,Developer portal with mature WHOIS record
+https://cloudflare.com,benign,Tranco,Established CDN provider infrastructure

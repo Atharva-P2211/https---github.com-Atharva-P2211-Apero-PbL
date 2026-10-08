@@ -1,0 +1,60 @@
+{
+  "https://secure-login-wellsfargo.verify-alerts-sec.top/auth": {
+    "verdict": "malicious",
+    "confidence": 0.94,
+    "reasoning": "Recently registered domain (4 days old) on a low-reputation high-abuse TLD (.top) impersonating Wells Fargo banking infrastructure with WHOIS privacy masking.",
+    "latency": 340,
+    "cost": 0.00012,
+    "cache_hit": true,
+    "details": {
+      "normalized_url": "https://secure-login-wellsfargo.verify-alerts-sec.top/auth",
+      "domain": "verify-alerts-sec.top",
+      "resolved_ips": ["185.220.101.5"],
+      "rdap": {
+        "status": "ok",
+        "domain": "verify-alerts-sec.top",
+        "age_days": 4,
+        "privacy_redacted": true,
+        "registrar": "NiceNIC International Group Co., Ltd."
+      },
+      "geo": {
+        "status": "ok",
+        "ip": "185.220.101.5",
+        "asn": 51167,
+        "asn_org": "Contabo GmbH",
+        "country": "Germany",
+        "likely_cdn": false
+      },
+      "cdn_detected": false
+    }
+  },
+  "https://github.com/explore": {
+    "verdict": "benign",
+    "confidence": 0.99,
+    "reasoning": "Established domain (>5800 days old) registered under standard corporate registrar with authoritative DNS and resilient infrastructure.",
+    "latency": 210,
+    "cost": 0.00009,
+    "cache_hit": true,
+    "details": {
+      "normalized_url": "https://github.com/explore",
+      "domain": "github.com",
+      "resolved_ips": ["140.82.112.3"],
+      "rdap": {
+        "status": "ok",
+        "domain": "github.com",
+        "age_days": 5850,
+        "privacy_redacted": true,
+        "registrar": "MarkMonitor, Inc."
+      },
+      "geo": {
+        "status": "ok",
+        "ip": "140.82.112.3",
+        "asn": 36459,
+        "asn_org": "GitHub, Inc.",
+        "country": "United States",
+        "likely_cdn": false
+      },
+      "cdn_detected": false
+    }
+  }
+}

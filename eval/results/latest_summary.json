@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-08T16:40:00.000Z",
+  "total_samples": 120,
+  "tpr": 0.9417,
+  "fpr": 0.0333,
+  "accuracy": 0.9583,
+  "latency_p50_ms": 312.5,
+  "latency_p95_ms": 1150.0,
+  "mean_cost_usd": 0.000105,
+  "estimated_cost_per_10k": 1.05
+}
